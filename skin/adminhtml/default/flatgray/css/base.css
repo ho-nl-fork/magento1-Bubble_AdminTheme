@@ -1,21 +1,6 @@
-/**
- * Bubble_AdminTheme
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the H&O Commercial License
- * that is bundled with this package in the file LICENSE_HO.txt.
- * It is also available through the world-wide-web at this URL:
- * http://www.h-o.nl/license
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to info@h-o.com so we can send you a copy immediately.
- *
- * @category  Bubble
- * @package   Bubble_AdminTheme
- * @author    Nick de Kleijn – H&O <info@h-o.nl>
- * @copyright 2016 Copyright © H&O (http://www.h-o.nl/)
- * @license   H&O Commercial License (http://www.h-o.nl/license)
+/*
+ * Copyright © 2017 H&O E-commerce specialisten B.V. (http://www.h-o.nl/)
+ * See LICENSE.txt for license details.
  */
 .messages li {
   font-weight: 400  !important;
@@ -1545,26 +1530,18 @@ body #system_config_tabs .buckaroo-section span {
 body #system_config_tabs .buckaroo-section.active {
   background-color: #eee !important;
 }
-body ul.tabs a.monkey-section:hover {
+body ul.tabs a.mailchimp-section:hover {
   background-color: #f4f4f4;
   background-image: none;
 }
-body ul.tabs a.monkey-section,
-body ul.tabs a.monkey-section:hover {
+body ul.tabs a.mailchimp-section,
+body ul.tabs a.mailchimp-section:hover {
   border-bottom: 1px #eee;
   border-bottom-style: solid;
   text-indent: -9999px;
 }
-body ul.tabs a.monkey-section span,
-body ul.tabs a.monkey-section:hover span {
-  background: url(../../default/magemonkey/mailchimp-tab.png) no-repeat;
-  overflow: visible;
-  padding-left: 0;
-  width: auto;
-  height: 20px;
-}
-body ul.tabs a.monkey-section.active,
-body ul.tabs a.monkey-section.active:hover {
+body ul.tabs a.mailchimp-section.active,
+body ul.tabs a.mailchimp-section.active:hover {
   background: #eee;
   border-bottom-color: transparent;
 }
@@ -1576,16 +1553,6 @@ body ul.tabs a.mandrill-section,
 body ul.tabs a.mandrill-section:hover {
   border-bottom: 1px #eee;
   border-bottom-style: solid;
-}
-body ul.tabs a.mandrill-section span,
-body ul.tabs a.mandrill-section:hover span {
-  background: url(../../default/ebizmarts/mandrill/mandrill-tab.png) no-repeat;
-  overflow: visible;
-  padding: 0;
-  padding-left: 30px;
-  width: auto;
-  height: 20px;
-  line-height: normal;
 }
 body ul.tabs a.mandrill-section.active,
 body ul.tabs a.mandrill-section.active:hover {
